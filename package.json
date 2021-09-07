@@ -1,0 +1,31 @@
+{
+  "name": "UVG-Backend-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start": "webpack && node build/index.js",
+    "build": "webpack"
+
+  },
+  "author": "nemnon@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "fastify": "^3.20.1",
+    "fastify-cors": "^6.0.2",
+    "fastify-jwt": "^3.0.1",
+    "fastify-plugin": "^3.0.0",
+    "fastify-static": "^4.2.3",
+    "google-spreadsheet": "^3.1.15",
+    "mariadb": "^2.5.4",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
